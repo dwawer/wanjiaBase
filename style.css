@@ -1,0 +1,121 @@
+
+html{
+
+	-webkit-text-size-adjust:100%;
+
+	-ms-text-size-adjust:100%;
+
+}
+
+
+body {
+	text-align:center;
+	background:#F8F8F8
+}
+
+.head {
+	position: fixed; top:0; left:0;
+	width: 100%;
+	background: #46A3FF;
+	box-shadow:0 3px 3px #bebebe;
+	height:130px;
+	z-index: 2;
+}
+
+.foot {
+	position: fixed; bottom:0; left:0;
+	background:#E5E5E5;
+	width: 100%;
+	border-top:solid 2px #DBDBDB;
+	margin:0 auto;
+	height: 100px;
+	vertical-align: middle;
+}
+
+.item {
+	width:95%;
+	margin: 20px auto;
+	background-size:cover;
+	border:solid 1px #e5e6e6; border-top:solid 1px #FFF;
+	box-shadow:0 2px 2px #e5e6e6;
+	background: #FFF;
+	position: relative;
+
+}
+
+.head h2 {
+	margin: 0 auto;
+	font-size: 60px;
+	margin-top: 30px;
+}
+
+.hr {
+	width:95%;
+	height: 2px;
+	background: rgba(0,0,0,0.3);
+	margin:0 auto;
+}
+
+.item-img-test {
+	transform:rotate(90deg);
+    -ms-transform:rotate(90deg); 	/* IE 9 */
+    -moz-transform:rotate(90deg); 	/* Firefox */
+    -webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+    -o-transform:rotate(90deg);
+    max-height: 80%;
+    max-width: 90%;
+}
+
+.item-img {
+    max-height: 90%;
+    max-width: 90%;
+    margin:15px 0;
+}
+
+.item-text {
+	margin: 20px 50px 20px 230px;
+	font-size: 30px;
+}
+
+.like {
+	position: absolute;
+	left:5%;bottom:6%;
+	font-size: 30px;
+}
+
+.likeNum {
+	margin: 0 auto;
+	position: absolute;
+	left:12%;bottom:5%;
+	font-size: 20px;
+}
+
+.foot p {
+	margin:0 auto;
+	display: inline;
+	font-size: 40px;
+	padding: 0;
+}
+
+.item p {
+	font-size: 30px;
+} 
+
+.foot-img {
+	height:70px;
+	margin-top: 15px;
+}
+
+.header-space {
+	height:140px;
+}
+
+.footer-space {
+	height:110px;
+}
+
+
+#login_box{width:300px;height:150px;background:#eee;
+     border:1px solid #ccc;position:absolute;left:50%;top:50%;margin-left:-150px;margin-top:-75px;display:none;}
+#login_box p{height:20px;border-bottom:1px solid #ccc;font-size:12px;padding:6px 0 0 5px;font-weight:bold;}
+#close{width:14px;height:14px;background:url(close.png) no-repeat;position:absolute;right:4px;top:6px;}

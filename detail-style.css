@@ -1,0 +1,99 @@
+
+html{
+
+	-webkit-text-size-adjust:100%;
+
+	-ms-text-size-adjust:100%;
+
+}
+
+
+body {
+	text-align:center;
+	background:#F8F8F8
+}
+
+.head {
+	position: fixed; top:0; left:0;
+	width: 100%;
+	background: #46A3FF;
+	box-shadow:0 3px 3px #bebebe;
+	height:130px;
+	z-index: 2;
+}
+
+.foot {
+	position: fixed; bottom:0; left:0;
+	background:#E5E5E5;
+	width: 100%;
+	border-top:solid 2px #DBDBDB;
+	margin:0 auto;
+	height: 100px;
+	vertical-align: middle;
+}
+
+.head h2 {
+	margin: 0 auto;
+	font-size: 60px;
+	margin-top: 30px;
+}
+
+.hr {
+	width:95%;
+	height: 2px;
+	background: rgba(0,0,0,0.3);
+	margin:0 auto;
+}
+
+
+.foot p {
+	margin:0 auto;
+	display: inline;
+	font-size: 40px;
+	padding: 0;
+}
+
+.foot-img {
+	height:70px;
+	margin-top: 15px;
+}
+
+.header-space {
+	height:140px;
+}
+
+.footer-space {
+	height:110px;
+}
+
+.img-content {
+	width:95%;
+}
+
+.comment-area > p {
+	margin: 8px 0;
+	font-size: 40px;
+}
+
+.comment {
+	clear: both;
+	margin:50px 20px;
+}
+
+.photo-area {
+	float: left;
+}
+
+.comment-detail {
+	float: left;
+}
+
+.comment-detail .user {
+	font-size: 30px;
+}
+
+.comment-detail .text {
+	font-size: 25px;
+	margin-left: 100px;
+	margin-top: 20px;
+}
